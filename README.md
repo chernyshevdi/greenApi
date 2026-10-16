@@ -6,6 +6,8 @@
 
 > Задание допускает Telegram вместо MAX, поэтому интеграция сделана для Telegram.
 
+**Демо:** https://green-api-rose-nu.vercel.app/ (нужны ваши `idInstance` и `apiTokenInstance`).
+
 ## Возможности
 
 - Вход по `idInstance` и `apiTokenInstance` из личного кабинета GREEN-API.
