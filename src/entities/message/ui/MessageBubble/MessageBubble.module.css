@@ -1,0 +1,64 @@
+.row {
+  display: flex;
+  padding: 2px 12px;
+}
+
+.out {
+  justify-content: flex-end;
+}
+
+.bubble {
+  max-width: min(480px, 80%);
+  padding: 6px 10px 4px;
+  border-radius: var(--radius-bubble);
+  color: var(--color-text);
+  background: var(--color-bubble-in);
+  box-shadow: 0 1px 1px rgb(0 0 0 / 12%);
+  overflow-wrap: anywhere;
+}
+
+.out .bubble {
+  background: var(--color-bubble-out);
+  border-bottom-right-radius: 4px;
+}
+
+.in .bubble {
+  border-bottom-left-radius: 4px;
+}
+
+.text {
+  white-space: pre-wrap;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 4px;
+  margin-left: 12px;
+  float: right;
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--color-bubble-time);
+}
+
+.out .meta {
+  color: var(--color-bubble-time-out);
+}
+
+.error {
+  color: var(--color-danger);
+  font-weight: 700;
+}
+
+.retry {
+  display: block;
+  margin-top: 2px;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 13px;
+  color: var(--color-accent);
+  background: none;
+  cursor: pointer;
+}

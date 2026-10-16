@@ -1,0 +1,38 @@
+.panel {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
+  background: var(--color-bg);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 12px;
+}
+
+.headerTitle {
+  flex: 1;
+  margin: 0 8px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.list {
+  flex: 1;
+  min-height: 0;
+  padding: 4px 8px;
+  overflow-y: auto;
+}
+
+.empty {
+  padding: 32px 24px;
+  color: var(--color-text-secondary);
+  text-align: center;
+}
+
+.formWrap {
+  padding: 8px 16px 16px;
+}

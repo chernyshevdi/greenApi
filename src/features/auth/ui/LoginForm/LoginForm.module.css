@@ -1,0 +1,37 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  max-width: 360px;
+}
+
+.title {
+  margin: 0;
+  font-size: 24px;
+  text-align: center;
+}
+
+.hint {
+  margin: 0;
+  font-size: var(--font-size-s);
+  color: var(--color-text-secondary);
+  text-align: center;
+}
+
+.advanced summary {
+  margin-bottom: 12px;
+  font-size: var(--font-size-s);
+  color: var(--color-accent);
+  cursor: pointer;
+}
+
+.warning {
+  margin: 0;
+  padding: 10px 12px;
+  border-radius: var(--radius-s);
+  font-size: var(--font-size-s);
+  color: var(--color-text);
+  background: color-mix(in srgb, var(--color-danger) 12%, transparent);
+  border: 1px solid var(--color-danger);
+}

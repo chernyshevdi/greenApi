@@ -1,0 +1,19 @@
+.banner {
+  margin: 0 12px 8px;
+  padding: 10px 12px;
+  border: 1px solid var(--color-danger);
+  border-radius: var(--radius-s);
+  font-size: var(--font-size-s);
+  color: var(--color-text);
+  background: color-mix(in srgb, var(--color-danger) 12%, transparent);
+}
+
+.transient {
+  border-color: var(--color-border);
+  background: var(--color-bg-secondary);
+}
+
+.title {
+  display: block;
+  font-weight: 500;
+}
